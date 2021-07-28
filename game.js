@@ -33,7 +33,7 @@ var questionBank= [
     {
         question : 'kwiklab is an online resource known for creating instances of?',
         option : ['Virtual Machines','Printing Machines','Machine learning','Web development'],
-        answer : 'Virtual machines'
+        answer : 'Virtual Machines'
     }
 ]
 
