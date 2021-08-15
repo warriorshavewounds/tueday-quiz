@@ -38,10 +38,10 @@ body{
 }
 
 .start_btn button{
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 500;
     color: #007bff;
-    padding: 15px 30px;
+    padding: 1rem 2rem;
     outline: none;
     border: none;
     border-radius: 5px;
@@ -50,7 +50,7 @@ body{
 }
 
 .info_box{
-    width: 540px;
+    width: 85%;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -60,24 +60,24 @@ body{
 }
 
 .info_box .info-title{
-    height: 60px;
+    height: 3.75rem;
     width: 100%;
     border-bottom: 1px solid lightgrey;
     display: flex;
     align-items: center;
-    padding: 0 30px;
+    padding: 0 1.875rem;
     border-radius: 5px 5px 0 0;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
 .info_box .info-list{
-    padding: 15px 30px;
+    padding: 1rem 2rem;
 }
 
 .info_box .info-list .info{
     margin: 5px 0;
-    font-size: 17px;
+    font-size: 1rem;
 }
 
 .info_box .info-list .info span{
@@ -85,19 +85,19 @@ body{
     color: #007bff;
 }
 .info_box .buttons{
-    height: 60px;
+    height: 3.75rem;
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    padding: 0 30px;
+    padding: 0 1.875rem;
     border-top: 1px solid lightgrey;
 }
 
 .info_box .buttons button{
     margin: 0 5px;
-    height: 40px;
-    width: 100px;
-    font-size: 16px;
+    height: 2.5rem;
+    width: 6.25rem;
+    font-size: 1rem;
     font-weight: 500;
     cursor: pointer;
     border: none;
@@ -108,7 +108,7 @@ body{
 }
 
 .quiz_box{
-    width: 550px;
+    width: 90%;
     background: #fff;
     border-radius: 5px;
     transform: translate(-50%, -50%) scale(0.9);
@@ -120,8 +120,8 @@ body{
 .quiz_box header{
     position: relative;
     z-index: 2;
-    height: 70px;
-    padding: 0 30px;
+    height: 4.375rem;
+    padding: 0 1.875rem;
     background: #fff;
     border-radius: 5px 5px 0 0;
     display: flex;
@@ -131,7 +131,7 @@ body{
 }
 
 .quiz_box header .title{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: 600;
 }
 
@@ -139,29 +139,29 @@ body{
     color: #004085;
     background: #cce5ff;
     border: 1px solid #b8daff;
-    height: 45px;
+    height: 2.8rem;
     padding: 0 8px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 145px;
+    width: 9rem;
 }
 
 .quiz_box header .timer .time_left_txt{
     font-weight: 400;
-    font-size: 17px;
+    font-size: 1rem;
     user-select: none;
 }
 
 .quiz_box header .timer .timer_sec{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: 500;
-    height: 30px;
+    height: 1.875rem;
     width: 45px;
     color: #fff;
     border-radius: 5px;
-    line-height: 30px;
+    line-height: 1.875rem;
     text-align: center;
     background: #343a40;
     border: 1px solid #343a40;
@@ -177,17 +177,17 @@ body{
 }
 
 section{
-    padding: 25px 30px 20px 30px;
+    padding: 1.56rem 1.875rem 1.25rem 1.875rem;
     background: #fff;
 }
 
 section .que_text{
-    font-size: 25px;
+    font-size: 1.56rem;
     font-weight: 600;
 }
 
 section .option_list{
-    padding: 20px 0px;
+    padding: 1.25rem 0;
     display: block;   
 }
 
@@ -196,7 +196,7 @@ section .option_list .option{
     border: 1px solid #84c5fe;
     border-radius: 5px;
     padding: 8px 15px;
-    font-size: 17px;
+    font-size: 1rem;
     margin-bottom: 15px;
     cursor: pointer;
     transition: all 0.3s ease;
@@ -232,15 +232,15 @@ section .option_list .option.disabled{
 }
 
 section .option_list .option .icon{
-    height: 26px;
-    width: 26px;
+    height: 1.625rem;
+    width: 1.625rem;
     border: 2px solid transparent;
     border-radius: 50%;
     text-align: center;
-    font-size: 13px;
+    font-size: 1rem;
     pointer-events: none;
     transition: all 0.3s ease;
-    line-height: 24px;
+    line-height: 1.5rem;
 }
 .option_list .option .icon.tick{
     color: #23903c;
@@ -255,8 +255,8 @@ section .option_list .option .icon{
 }
 
 footer{
-    height: 60px;
-    padding: 0 30px;
+    height: 3.75rem;
+    padding: 0 1.875rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -278,7 +278,7 @@ footer .total_que span p:first-child{
 }
 
 footer button{
-    height: 40px;
+    height: 2.5rem;
     padding: 0 13px;
     font-size: 18px;
     font-weight: 400;
@@ -311,7 +311,7 @@ footer button.show{
     border-radius: 5px;
     display: flex;
     padding: 25px 30px;
-    width: 450px;
+    width: 28rem;
     align-items: center;
     flex-direction: column;
     justify-content: center;
@@ -322,7 +322,7 @@ footer button.show{
 }
 
 .result_box .icon{
-    font-size: 100px;
+    font-size: 6.25rem;
     color: #007bff;
     margin-bottom: 10px;
 }
